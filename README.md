@@ -1,4 +1,4 @@
-# Django Vue Template Project
+# Portfolio
 
 Intended to be used as a template for future projects
 
@@ -12,12 +12,12 @@ Intended to be used as a template for future projects
 ### Setup Template
 
 ```
-$ git clone https://github.com/matt-nathan/django-vue-template
-$ cd django-vue-template
+$ git clone https://github.com/matt-nathan/portfolio
+$ cd portfolio
 ```
 ### Local Environment Setup
 
-Add a file to the base django-vue-template folder called `.env.local`
+Add a file to the base portfolio folder called `.env.local`
 Add the line `VUE_APP_BASE_API_URL=http://localhost:8080/api/` to the file and save. This will (should) not be added to github.
 
 ### Backend Setup
