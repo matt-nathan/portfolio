@@ -1,0 +1,25 @@
+{
+    "name": "django-vue-template",
+    "description": "Template project for django and vue.",
+    "env": {
+      "DJANGO_SETTINGS_MODULE": {
+        "description": "Use prod settings in production",
+        "value": "backend.settings.prod"
+      }
+     },
+     "engines": {
+        "yarn": "1.4.0",
+        "npm": "6.2.0"
+     },
+    "addons": [
+
+     ],
+     "buildpacks": [
+       {
+         "url": "heroku/nodejs"
+        },
+        {
+          "url": "heroku/python"
+        }
+    ]
+  }
